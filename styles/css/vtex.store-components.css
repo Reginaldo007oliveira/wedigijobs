@@ -1,7 +1,7 @@
 .notificationBarContainer {
   background: url("https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png" )no-repeat;
-  background-color: #e6f1e6;
-  color: #03034e00;
+  background-color: #06092b;
+  color: #3ad81300;
   font-weight: 700;
   font-size: 12px;
 
@@ -9,14 +9,14 @@
 }
 
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
+  width: 100%;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #06092b;
   padding: 0px;
 }
 
 .newsletter {
-  background-color: #161638;
+  background-color: #06092b;
   /* max-width: 1920px; */
   width:100%;
   margin: 0 auto;
@@ -31,7 +31,7 @@
 }
 
 .label {
-  color: #fff;
+  color: #06092b;
   font-size: 26px;
   border-color: aqua;
 }
@@ -147,3 +147,11 @@
 .productImageTag{
   color: #03034e;
 }
+/* footer colors cards */
+.container{
+  background-color: #06092b;
+  width: 100%;
+}
+
+
+

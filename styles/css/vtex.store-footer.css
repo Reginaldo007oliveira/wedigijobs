@@ -1,11 +1,14 @@
 .row--menu-row {
   padding-right: 24px;
+  background-color: bisque;
 }
 
 .row--menu-row .rowContainer {
   align-items: flex-start;
+  background-color: aqua;
 }
 
 .row--payment-methods {
   padding-top: 16px;
+  background-color: blueviolet;
 }
