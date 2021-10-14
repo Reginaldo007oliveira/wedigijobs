@@ -99,7 +99,7 @@
       "rowGap": 0
     },
     "children": [
-      "drawn-badge",
+      // "drawn-badge",
       "flex-layout.row#product-name",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
