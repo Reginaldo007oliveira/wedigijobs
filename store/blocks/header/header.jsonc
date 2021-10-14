@@ -22,16 +22,25 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [ "rich-text#top-bar"],
     "props": {
+      "blockClass": "menu-link",
       "fullWidth": "true"
     }
   },
-  "notification.bar#home": {
+
+
+  "rich-text#top-bar": {
     "props": {
-      "content": "Frete Grátis a partir de R$ 170, 00"
+      "blockClass": "menu-link",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text":  "![delivery](https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png) Frete Grátis a partir de R$ 170, 00"
+
+
     }
   },
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -92,7 +101,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "assets/wedigilogo.png",
       "width": "180"
     }
   },

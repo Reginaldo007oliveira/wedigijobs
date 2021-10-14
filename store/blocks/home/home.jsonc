@@ -32,14 +32,15 @@
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
+      "fullWidth": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/bannerhome.png",
+          "mobileImage":  "assets/bannerhome.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/bannerhome.png",
+          "mobileImage":  "assets/bannerhome.png"
         }
       ]
     }
@@ -52,6 +53,7 @@
         "phone": 1
       },
       "infinite": true,
+      "fullWidth": "true",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
@@ -64,8 +66,12 @@
     }
   },
   "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "shelfHome"
+    },
     "children": ["list-context.product-list#demo1"]
   },
+
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],

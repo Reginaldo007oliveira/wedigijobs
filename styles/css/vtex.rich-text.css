@@ -5,7 +5,8 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
+  background-color: #06092b;
+  color: #ffffff;
   justify-content: center;
   text-align: center;
 }
@@ -48,6 +49,15 @@
   color: #03034E;
 }
 
+.paragraph--menu-link{
+  color: #ffffff;
+
+}
+.image--menu-link{
+
+ width: 24px;
+}
+
 .container--link .strong {
   font-size: 16px;
   font-weight: 700;
@@ -88,3 +98,4 @@
     line-height: 1.3em;
   }
 }
+

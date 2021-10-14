@@ -1,9 +1,11 @@
 .notificationBarContainer {
+  background: url("https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png" )no-repeat;
   background-color: #e6f1e6;
-  color: #03034e;
+  color: #03034e00;
   font-weight: 700;
   font-size: 12px;
-  text-decoration: underline;
+
+
 }
 
 .infoCardContainer--info-card-home {
@@ -14,8 +16,9 @@
 }
 
 .newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+  background-color: #161638;
+  /* max-width: 1920px; */
+  width:100%;
   margin: 0 auto;
 }
 
@@ -23,9 +26,14 @@
   padding: 60px 10px;
 }
 
+.autoCompleteOuterContainer{
+  color: #e28205;
+}
+
 .label {
   color: #fff;
   font-size: 26px;
+  border-color: aqua;
 }
 
 .inputGroup {
@@ -112,14 +120,30 @@
   font-size: 30px;
 }
 .notificationBarInner{
-  background-color: #03034e;
+  border: aqua;
+
   color: #fff;
+  /* background: url("https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png" )no-repeat; */
+  background-color: #18a0fb;
+  text-decoration: none;
+
 }
+.notificationConten{
+  color: aqua;
+}
+
+
+
 .styledLinkContent{
   color: #fff;
   font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .styledLinkContainer{
+  color: #03034e;
+}
+
+
+.productImageTag{
   color: #03034e;
 }

@@ -2,7 +2,7 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  background-color: #06092b;
 }
 
 .sliderTrackContainer {
@@ -24,4 +24,11 @@
   margin-bottom: 25px;
   padding-left: .5rem;
   padding-right: .5rem;
+}
+
+.caretIcon--carousel{
+  color: #1db8fb;
+}
+.caretIcon--shelf{
+  color: #1db8fb;
 }
