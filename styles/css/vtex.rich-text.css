@@ -58,8 +58,10 @@ background-color: #06092b;
   color: #ffffff;
 
 }
+/* Titulo do menu footer */
 .paragraph--agoravai{
   color:#ffffff;
+  margin-left: 22px;
 }
 /* imagem da combi no topHeader */
 .image--menu-link{

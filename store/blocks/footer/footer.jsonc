@@ -16,9 +16,9 @@
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
-      "flex-layout.row#footer-4-desktop",
+      "flex-layout.row#footer-4-desktop"
       // "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer"
+      // "footer-spacer"
       // "social-networks"
     ],
     "props": {
@@ -93,19 +93,19 @@
   "flex-layout.col#banner-one": {
     "children": [ "image#mariobro"],
     "props": {
-      "marginRight":4,
+      "marginRight":4
     }
   },
   "flex-layout.col#banner-two": {
     "children":  ["image#ps5"],
     "props": {
-      "marginRight":4,
+      "marginRight":4
     }
   },
   "flex-layout.col#banner-thee": {
     "children": [ "image#gato"],
     "props": {
-      "marginRight":4,
+      "marginRight":4
     }
   },
 

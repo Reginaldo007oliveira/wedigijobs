@@ -4,7 +4,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#question1x",
+      "rich-text#questionInstitucional",
       "menu-item#news",
       "menu-item#blackfriday",
       "menu-item#sale",
@@ -28,9 +28,21 @@
     }
   },
 
-  "rich-text#question1x": {
+  "rich-text#questionInstitucional": {
     "props": {
-      "text": "**How can I**",
+      "text": "**Institucional**",
+      "blockClass": "agoravai"
+    }
+  },
+  "rich-text#questionAjuda": {
+    "props": {
+      "text": "**Ajuda**",
+      "blockClass": "agoravai"
+    }
+  },
+  "rich-text#questionAtendimento": {
+    "props": {
+      "text": "**Atendimento**",
       "blockClass": "agoravai"
     }
   },
@@ -91,6 +103,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#questionAtendimento",
       "menu-item#smartphones",
       "menu-item#videogames",
       "menu-item#tvs"
@@ -216,6 +229,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#questionAjuda",
       "menu-item#clothing",
       "menu-item#shorts",
       "menu-item#tank-tops",
@@ -389,6 +403,7 @@
 
   "menu-item#sweatshirt": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-sweat-shirts",
       "type": "custom",
       "iconId": null,
@@ -405,6 +420,7 @@
 
   "menu-item#cropped": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-cropped",
       "type": "custom",
       "iconId": null,
