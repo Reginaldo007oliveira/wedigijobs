@@ -4,6 +4,7 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#question1x",
       "menu-item#news",
       "menu-item#blackfriday",
       "menu-item#sale",
@@ -12,6 +13,7 @@
   },
   "menu-item#news": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-news",
       "type": "custom",
       "iconId": null,
@@ -25,8 +27,17 @@
       }
     }
   },
+
+  "rich-text#question1x": {
+    "props": {
+      "text": "**How can I**",
+      "blockClass": "agoravai"
+    }
+  },
+
   "menu-item#blackfriday": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-black-friday",
       "type": "custom",
       "iconId": null,
@@ -42,6 +53,7 @@
   },
   "menu-item#sale": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-sale",
       "type": "custom",
       "iconId": null,
@@ -56,7 +68,9 @@
     }
   },
   "menu-item#personalization": {
+
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-personalization",
       "type": "custom",
       "iconId": null,
@@ -73,6 +87,7 @@
 
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
+
       "orientation": "vertical"
     },
     "children": [
@@ -84,6 +99,7 @@
 
   "menu-item#smartphones": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-smartphones",
       "type": "custom",
       "iconId": null,
@@ -100,6 +116,7 @@
 
   "menu-item#videogames": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-videogames",
       "type": "custom",
       "iconId": null,
@@ -116,6 +133,7 @@
 
   "menu-item#tvs": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-tvs",
       "type": "custom",
       "iconId": null,
@@ -130,67 +148,71 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
+  // "vtex.menu@2.x:menu#footer-bags": {
+  //   "props": {
+  //     "orientation": "vertical"
+  //   },
+  //   "children": [
+  //     "menu-item#bags",
+  //     "menu-item#backpacks",
+  //     "menu-item#necessaire"
+  //   ]
+  // },
 
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
+  // "menu-item#bags": {
+  //   "props": {
+  //     "blockClass": "agoravai",
+  //     "id": "menu-item-bags",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/bags/d",
+  //       "noFollow": true,
+  //       "tagTitle": "Bags",
+  //       "text": "Bags"
+  //     }
+  //   }
+  // },
 
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
-  },
+  // "menu-item#backpacks": {
+  //   "props": {
+  //     "blockClass": "agoravai",
+  //     "id": "menu-item-backpacks",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/bags/backpacks",
+  //       "noFollow": true,
+  //       "tagTitle": "Backpacks",
+  //       "text": "Backpacks"
+  //     }
+  //   }
+  // },
 
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
-  },
+  // "menu-item#necessaire": {
+  //   "props": {
+  //     "blockClass": "agoravai",
+  //     "id": "menu-item-necessaire",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/bags/necessaire",
+  //       "noFollow": true,
+  //       "tagTitle": "Necessaire",
+  //       "text": "Necessaire"
+  //     }
+  //   }
+  // },
 
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
+
       "orientation": "vertical"
     },
     "children": [
@@ -216,6 +238,7 @@
 
   "menu-item#clothing-mobile": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -249,6 +272,7 @@
 
   "menu-item#decoration-mobile": {
     "props": {
+      "blockClass": "agoravai",
       "itemProps": {
         "tagTitle": "Decoration",
         "text": "Decoration"
@@ -297,6 +321,7 @@
 
   "menu-item#clothing": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -313,6 +338,7 @@
 
   "menu-item#shorts": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-shorts",
       "type": "custom",
       "iconId": null,
@@ -329,6 +355,7 @@
 
   "menu-item#tank-tops": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-tank-tops",
       "type": "custom",
       "iconId": null,
@@ -345,6 +372,7 @@
 
   "menu-item#shirts": {
     "props": {
+      "blockClass": "agoravai",
       "id": "menu-item-shirts",
       "type": "custom",
       "iconId": null,

@@ -46,6 +46,12 @@
   padding: 14px 0px;
 }
 
+.flexRow--footercats {
+  align-items: center;
+
+
+}
+
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }

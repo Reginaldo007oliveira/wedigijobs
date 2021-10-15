@@ -1,0 +1,178 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+
+
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "flex-layout.row#footer-4-desktop",
+      // "vtex.menu@2.x:menu#footer-bags",
+      "footer-spacer"
+      // "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  // "social-networks": {
+  //   "props": {
+  //     "socialNetworks": [
+  //       {
+  //         "name": "Facebook",
+  //         "url": "https://www.facebook.com/vtexonline/"
+  //       },
+  //       {
+  //         "name": "Instagram",
+  //         "url": "https://www.instagram.com/vtextruecloud/"
+  //       },
+  //       {
+  //         "name": "Twitter",
+  //         "url": "https://twitter.com/vtexonline"
+  //       },
+  //       {
+  //         "name": "Youtube",
+  //         "url": "https://www.youtube.com/user/VTEXTV"
+  //       }
+  //     ]
+  //   }
+  // },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass":  "menu-row"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass":  "menu-row"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "by Reginaldo Oliveira",
+      "blockClass": "footer"
+    }
+  },
+
+// images do footer
+
+  "flex-layout.row#footer-4-desktop": {
+    "children": [ "flex-layout.row#footer-banners"]
+  },
+  "flex-layout.row#footer-banners": {
+    "children": ["flex-layout.col#banner-one",
+                 "flex-layout.col#banner-two",
+                 "flex-layout.col#banner-thee"],
+    "props": {
+
+
+    }
+  },
+  "flex-layout.col#banner-one": {
+    "children": [ "image#mariobro"],
+    "props": {
+      "marginRight":4,
+    }
+  },
+  "flex-layout.col#banner-two": {
+    "children":  ["image#ps5"],
+    "props": {
+      "marginRight":4,
+    }
+  },
+  "flex-layout.col#banner-thee": {
+    "children": [ "image#gato"],
+    "props": {
+      "marginRight":4,
+    }
+  },
+
+  "image#mariobro": {
+    "props": {
+      "src": "assets/mario.png"
+
+    }
+  },
+  "image#ps5": {
+    "props": {
+      "src": "assets/ps5.png"
+
+    }
+  },
+  "image#gato": {
+    "props": {
+      "src": "assets/Gato.png"
+
+    }
+  },
+
+
+
+
+
+
+
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}
