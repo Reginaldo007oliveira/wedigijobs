@@ -1,0 +1,9 @@
+{
+
+  "rich-text#busquePorPlataformas": {
+    "props": {
+      "blockClass": ["title-slogan", "titles"],
+      "text":" **|** Busque por plataformas"
+    }
+  }
+}

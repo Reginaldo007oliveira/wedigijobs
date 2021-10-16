@@ -119,3 +119,22 @@ height: 25px;
   }
 }
 
+.paragraph--title{
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 22px;
+}
+.image--titles{
+  color: #ffffff;
+  font-size: 33px;
+
+}
+.strong--title-slogan {
+  color: #8f14f3;
+  font-size: 35px;
+  margin-left: 33px;
+}
+.paragraph--titles{
+  color: #f6f6fa;
+  font-size: 23px;
+}
