@@ -11,6 +11,45 @@
       "menu-item#personalization"
     ]
   },
+
+
+
+
+
+
+  "vtex.menu@2.x:menu#websiteslombra": {
+    "children": [
+      "menu-item#shopss"
+
+    ]
+  },
+  "menu-item#shopss": {
+    "props": {
+      "id": "menu-item-shopss",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shopss",
+        "text": "Shopss"
+      },
+      "iconProps": {
+        "id": "mpa-bag",
+        "size": 20,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+
+
+
+
+
   "menu-item#news": {
     "props": {
       "blockClass": "agoravai",
@@ -43,6 +82,19 @@
   "rich-text#questionAtendimento": {
     "props": {
       "text": "**Atendimento**",
+      "blockClass": "agoravai"
+    }
+  },
+
+  "rich-text#question-telefone": {
+    "props": {
+      "text": "![delivery](assets/telefone-footer.png) TELEFONE (11)",
+      "blockClass": "agoravai"
+    }
+  },
+  "rich-text#question-whatsapp": {
+    "props": {
+      "text": "![zap](assets/zap-footer.png) WHATSAPP (11)",
       "blockClass": "agoravai"
     }
   },
@@ -104,8 +156,8 @@
     },
     "children": [
       "rich-text#questionAtendimento",
-      "menu-item#smartphones",
-      "menu-item#videogames",
+      "rich-text#question-telefone",
+      "rich-text#question-whatsapp",
       "menu-item#tvs"
     ]
   },
@@ -122,7 +174,7 @@
         "href": "/decoration/smartphones",
         "noFollow": true,
         "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "text": " Smartphones"
       }
     }
   },
@@ -364,6 +416,7 @@
         "tagTitle": "Shorts",
         "text": "Shorts"
       }
+
     }
   },
 

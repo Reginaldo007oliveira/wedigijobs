@@ -17,6 +17,7 @@
 
 .newsletter {
   background-color: #06092b;
+  color: #1db8fb;
   /* max-width: 1920px; */
   width:100%;
   margin: 0 auto;
@@ -31,7 +32,7 @@
 }
 
 .label {
-  color: #06092b;
+  color: #ffffff;
   font-size: 26px;
   border-color: aqua;
 }
@@ -152,6 +153,18 @@
   background-color: #06092b;
   width: 100%;
 }
-
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 40px;
+  max-width: 400px;
+  width: 400px;
+  border: 1px solid rgb(14, 151, 214);
+  color: #18a0fb;
+}
+.input{
+  color:#fff;
+}
+.hideDecorators{
+  color: #e28205;
+}
 
 

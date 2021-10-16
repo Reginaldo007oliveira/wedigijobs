@@ -1,0 +1,20 @@
+.cartIcon{
+  display: none;
+
+}
+
+.minicartIconContainer::before {
+  content: "";
+  background: url("assets/cartman.png")no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+  top: 20%;
+  transition: all 40ms;
+  margin-right: 2px;
+}
+
+

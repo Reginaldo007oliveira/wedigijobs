@@ -1,0 +1,152 @@
+{
+
+
+  "slider-layout#carrocel-de-herois": {
+    "children": [ "flex-layout.row#heroisOne"],
+    "props": {
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true,
+        "fullWidth": true
+
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+
+
+
+  "flex-layout.row#heroisOne": {
+    "children": ["flex-layout.col#card-pantera",
+                "flex-layout.col#hitman3",
+                "flex-layout.col#ageEmpires",
+                "flex-layout.col#stray",
+                "flex-layout.col#deathLoop"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#card-pantera": {
+    "children": [
+      "image#cardPantera",
+      "rich-text#textoPantera"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+
+  },
+  "image#cardPantera": {
+    "props": {
+      "src": "assets/cardPantera.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#textoPantera": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#hitman3": {
+    "children": [
+      "image#hitman3",
+      "rich-text#hitman3"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#hitman3": {
+    "props": {
+      "src": "assets/ex.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#hitman3": {
+    "props": {
+      "text": "One day delivery",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#ageEmpires": {
+    "children": [
+      "image#ageEmpires",
+      "rich-text#ageEmpires"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#ageEmpires": {
+    "props": {
+      "src": "assets/ageEmpires.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#ageEmpires": {
+    "props": {
+      "text": "Pick up in store",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#stray": {
+    "children": [
+      "image#stray",
+      "rich-text#stray"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#stray": {
+    "props": {
+      "src": "assets/gatoDahome.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#stray": {
+    "props": {
+      "text": "Exclusive deals",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deathLoop": {
+    "children": [
+      "image#deathLoop",
+      "rich-text#deathLoop"
+    ]
+  },
+  "image#deathLoop": {
+    "props": {
+      "src": "assets/deathloop.png",
+      "maxHeight": "300px",
+      "maxWidth":"250px"
+    }
+  },
+  "rich-text#deathLoop": {
+    "props": {
+      "text": "Exclusive deals",
+      "blockClass": "deals"
+    }
+  }
+}

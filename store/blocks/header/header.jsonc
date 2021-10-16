@@ -80,7 +80,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      // "locale-switcher",
       "login",
       "minicart.v2"
     ]
