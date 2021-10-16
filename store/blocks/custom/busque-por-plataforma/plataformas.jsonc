@@ -1,9 +1,155 @@
+// passei dois blockClass
 {
 
+  "flex-layout.row#plataformas": {
+    "children": ["flex-layout.col#card-playstation",
+                "flex-layout.col#pc-windows",
+                "flex-layout.col#card-nintendo",
+                "flex-layout.col#card-xbox"
+
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+
+
+  "flex-layout.row#em-breve": {
+    "children": ["image#em-breve"],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+  "image#em-breve": {
+    "props": {
+      "src": "assets/bannerDoisHome.png"
+    }
+  },
+
+
+  "flex-layout.col#card-playstation": {
+    "children": [
+      "image#cardPlaystation",
+      "rich-text#textoPlaystation"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+
+  },
+  "image#cardPlaystation": {
+    "props": {
+      "src": "assets/quadro-playstation.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#textoPlaystation": {
+    "props": {
+      "text": "Free shipping",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#pc-windows": {
+    "children": [
+      "image#pc-windows",
+      "rich-text#pc-windows"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#pc-windows": {
+    "props": {
+      "src": "assets/quadro-pc-windows.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#pc-windows": {
+    "props": {
+      "text": "One day delivery",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#card-nintendo": {
+    "children": [
+      "image#nintendo",
+      "rich-text#nintendo"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#nintendo": {
+    "props": {
+      "src": "assets/quadro-nintendo.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#nintendo": {
+    "props": {
+      "text": "Pick up in store",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#card-xbox": {
+    "children": [
+      "image#xbox",
+      "rich-text#xbox"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#xbox": {
+    "props": {
+      "src": "assets/quadro-xbox.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#xbox": {
+    "props": {
+      "text": "Exclusive deals",
+      "blockClass": "deals"
+    }
+  },
+
+
+//Titulos da home
   "rich-text#busquePorPlataformas": {
     "props": {
-      "blockClass": ["title-slogan", "titles"],
+      "blockClass": ["title-station", "station"],
       "text":" **|** Busque por plataformas"
+    }
+  },
+  "rich-text#destaque-da-semana": {
+    "props": {
+      "blockClass": ["title-slogan", "titles"],
+      "text":" **|** Destaques da semana"
+    }
+  },
+  "rich-text#emk-alta": {
+    "props": {
+      "blockClass": ["title-slogan", "titles"],
+      "text":" **|** Em alta"
     }
   }
 }
+

@@ -140,7 +140,7 @@
     "props": {
       "src": "assets/deathloop.png",
       "maxHeight": "300px",
-      "maxWidth":"250px"
+      "maxWidth":"850px"
     }
   },
   "rich-text#deathLoop": {

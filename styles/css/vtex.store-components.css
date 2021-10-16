@@ -16,15 +16,20 @@
 }
 
 .newsletter {
-  background-color: #06092b;
+  background-color: #03051A;
   color: #1db8fb;
   /* max-width: 1920px; */
   width:100%;
   margin: 0 auto;
 }
 
+/* .container--newsLetter{
+  background-color: #18a0fb;
+} */
+
 .newsletter .container {
   padding: 60px 10px;
+  background-color: #03051A;
 }
 
 .autoCompleteOuterContainer{
@@ -165,6 +170,12 @@
 }
 .hideDecorators{
   color: #e28205;
+}
+
+.searchBarContainer:global(.vtex-styleguide-9-x-input)::placeholder{
+  color: rgb(235, 52, 52);
+  background-color: aqua;
+  font-size: 16px;
 }
 
 

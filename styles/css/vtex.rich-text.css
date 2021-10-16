@@ -62,6 +62,12 @@ background-color: #06092b;
 .paragraph--agoravai{
   color:#ffffff;
   margin-left: 22px;
+  font-size: 18px;
+}
+.paragraph--agorafoi{
+  color:#ffffff;
+  margin-left: 22px;
+  font-size: 12px;
 }
 /* imagem da combi no topHeader */
 .image--menu-link{
@@ -130,11 +136,22 @@ height: 25px;
 
 }
 .strong--title-slogan {
-  color: #8f14f3;
+  color: #4839FF;
   font-size: 35px;
-  margin-left: 33px;
+  margin-left: 180px;
 }
 .paragraph--titles{
+  color: #f6f6fa;
+  font-size: 23px;
+}
+
+
+.strong--title-station {
+  color: #0adefa;
+  font-size: 35px;
+  margin-left: 100px;
+}
+.paragraph--station{
   color: #f6f6fa;
   font-size: 23px;
 }

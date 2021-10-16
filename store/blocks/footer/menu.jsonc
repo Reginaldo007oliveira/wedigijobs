@@ -5,8 +5,8 @@
     },
     "children": [
       "rich-text#questionInstitucional",
-      "menu-item#news",
-      "menu-item#blackfriday",
+      "menu-item#perguntas-frequentes",
+      "menu-item#termo-de-uso",
       "menu-item#sale",
       "menu-item#personalization"
     ]
@@ -50,7 +50,7 @@
 
 
 
-  "menu-item#news": {
+  "menu-item#perguntas-frequentes": {
     "props": {
       "blockClass": "agoravai",
       "id": "menu-item-news",
@@ -61,8 +61,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Perguntas frequentes",
+        "text": "PERGUNTAS FREQUENTES"
       }
     }
   },
@@ -89,17 +89,17 @@
   "rich-text#question-telefone": {
     "props": {
       "text": "![delivery](assets/telefone-footer.png) TELEFONE (11)",
-      "blockClass": "agoravai"
+      "blockClass": "agorafoi"
     }
   },
   "rich-text#question-whatsapp": {
     "props": {
       "text": "![zap](assets/zap-footer.png) WHATSAPP (11)",
-      "blockClass": "agoravai"
+      "blockClass": "agorafoi"
     }
   },
 
-  "menu-item#blackfriday": {
+  "menu-item#termo-de-uso": {
     "props": {
       "blockClass": "agoravai",
       "id": "menu-item-black-friday",
@@ -110,8 +110,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Termo de uso",
+        "text": "TERMO DE USO"
       }
     }
   },

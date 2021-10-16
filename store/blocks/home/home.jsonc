@@ -2,11 +2,17 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "rich-text#destaque-da-semana",
       "slider-layout#carrocel-de-herois",
       "rich-text#busquePorPlataformas",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#plataformas",
+      "flex-layout.row#em-breve",
+      "rich-text#emk-alta",
+      "slider-layout#carrocel-de-herois",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
+
 
       // "storefront-component",
       // "rich-text#shelf-title",
