@@ -4,10 +4,10 @@
   color: #3ad81300;
   font-weight: 700;
   font-size: 12px;
-
-
 }
-
+.searchIcon{
+  color: #1db8fb;
+}
 .infoCardContainer--info-card-home {
   width: 100%;
   margin: 0 auto;
