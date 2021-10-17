@@ -21,6 +21,8 @@
   /* max-width: 1920px; */
   width:100%;
   margin: 0 auto;
+
+
 }
 
 /* .container--newsLetter{
@@ -30,6 +32,8 @@
 .newsletter .container {
   padding: 60px 10px;
   background-color: #03051A;
+
+
 }
 
 .autoCompleteOuterContainer{

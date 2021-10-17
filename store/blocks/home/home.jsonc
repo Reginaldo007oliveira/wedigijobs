@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "__fold__.experimentalLazyAssets",
       "rich-text#destaque-da-semana",
       "slider-layout#carrocel-de-herois",
       "rich-text#busquePorPlataformas",
@@ -9,7 +10,10 @@
       "flex-layout.row#plataformas",
       "flex-layout.row#em-breve",
       "rich-text#emk-alta",
+      "__fold__.experimentalLazyAssets",
       "slider-layout#carrocel-de-herois",
+      "newsletter",
+      "flex-layout.row#laranja"
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
 
@@ -20,10 +24,16 @@
       // "info-card#home",
       // "rich-text#question",
       // "rich-text#link",
-      "newsletter"
+
     ]
   },
-
+  //linha laranja
+  "flex-layout.row#laranja": {
+    "props": {
+      "blockClass": "footer-row"
+    },
+    "children": []
+  },
   // "storefront-component": {
   //   "props": {
   //     "productIds": [
