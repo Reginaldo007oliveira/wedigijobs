@@ -52,7 +52,8 @@
   // },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["flex-layout.col#linhaone",
+    "children": [ "rich-text#footer-siga",
+                  "flex-layout.col#linhaone",
                  "flex-layout.col#linhatwo",
                  "flex-layout.col#linhatree"],
     "props": {
@@ -108,6 +109,7 @@
     "children": [ "flex-layout.row#footer-banners"]
   },
   "flex-layout.row#footer-banners": {
+
     "children": ["flex-layout.col#banner-one",
                  "flex-layout.col#banner-two",
                  "flex-layout.col#banner-thee"],
@@ -152,6 +154,7 @@
       "src": "assets/Gato.png"
 
     }
+
   },
 
 
@@ -198,6 +201,15 @@
   "rich-text#footer-mobile": {
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+
+
+  "rich-text#footer-siga": {
+    "props": {
+      "text": "@SIGA NOS NO INSTAGRAM ![int](assets/instagram.png)",
       "blockClass": "footer"
     }
   }
