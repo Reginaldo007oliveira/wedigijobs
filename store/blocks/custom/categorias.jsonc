@@ -1,0 +1,278 @@
+{
+  "store.custom#Categorias": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#heroisOne2",
+      "flex-layout.row#heroisOne3",
+      "flex-layout.row#heroisOne2",
+      "flex-layout.row#heroisOne3",
+      "flex-layout.row#heroiDuasColunas"
+    ]
+  },
+  "flex-layout.row#heroisOne3": {
+    "children": [
+                "flex-layout.col#hitman32",
+                "flex-layout.col#ageEmpires2",
+                "flex-layout.col#stray2",
+                "flex-layout.col#deathLoop2"
+                 ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+
+// Duas Colunas pagina de ação
+
+  "flex-layout.row#heroiDuasColunas": {
+    "children": ["flex-layout.col#acaoTwoImagem",
+                 "flex-layout.col#acaoOneTexto"
+                ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+
+  "flex-layout.col#acaoOneTexto": {
+    "children": ["rich-text#acaotitulo","rich-text#acaotexto"],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "flex-layout.col#acaoTwoImagem": {
+    "children": ["image#acaoImagem" ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+
+
+  "image#acaoImagem": {
+    "props": {
+      "src": "assets/infoPageHome.png",
+      "maxHeight": "800px"
+
+    }
+  },
+  "rich-text#acaotitulo": {
+    "props": {
+      "text": "Como escolher o videogame ideal para você? \nDescubra dicas infalíveis!",
+      "font": "t-heading-5",
+      "blockClass":  "acao"
+    }
+  },
+  "rich-text#acaotexto": {
+    "props": {
+      "text": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, \nvel vulputate sapien parturient pulvinar sagittis. Nibh vitae\n ut pretium, mauris. Potenti venenatis habitant nulla quam \nante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. \nPurus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus",
+      "blockClass":  "justfytext"
+    }
+  },
+
+
+
+  "flex-layout.row#heroisOne2": {
+    "children": [
+                "flex-layout.col#hitman32",
+                "flex-layout.col#ageEmpires2",
+                "flex-layout.col#stray2",
+                "flex-layout.col#deathLoop2"
+                 ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#hitman32": {
+    "children": [
+      "image#hitman32",
+      "rich-text#hitman32",
+      "rich-text#hitman2",
+      "rich-text#hitma2",
+      "rich-text#3veses-sem-juros2"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#hitman32": {
+    "props": {
+      "src": "assets/ex.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#hitman32": {
+    "props": {
+      "text": "IO Interactive",
+      "blockClass":  "pantera"
+    }
+  },
+  "flex-layout.col#ageEmpires2": {
+    "children": [
+      "image#ageEmpires2",
+      "rich-text#ageEmpires2",
+      "rich-text#age2",
+      "rich-text#ageof2",
+      "rich-text#3veses-sem-juros2"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#ageEmpires2": {
+    "props": {
+      "src": "assets/ageEmpires.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#ageEmpires2": {
+    "props": {
+      "text": "Xbox Games Studios",
+      "blockClass":  "pantera"
+    }
+  },
+  "flex-layout.col#stray2": {
+    "children": [
+      "image#stray2",
+      "rich-text#stray2",
+      "rich-text#strays2",
+      "rich-text#straycat2",
+      "rich-text#3veses-sem-juros2"
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#stray2": {
+    "props": {
+      "src": "assets/gatoDahome.png",
+      "maxHeight": "300px"
+
+    }
+  },
+  "rich-text#stray2": {
+    "props": {
+      "text": "BlueTwelve Studios",
+      "blockClass":  "pantera"
+    }
+  },
+  "flex-layout.col#deathLoop2": {
+    "children": [
+      "image#deathLoop2",
+      "rich-text#deathLoop2",
+      "rich-text#deathloop2",
+      "rich-text#precodeathloop2",
+      "rich-text#3veses-sem-juros2"
+    ]
+  },
+  "image#deathLoop2": {
+    "props": {
+      "src": "assets/deathloop.png",
+      "maxHeight": "300px",
+      "maxWidth":"850px"
+    }
+  },
+  "rich-text#deathLoop2": {
+    "props": {
+      "text": "Bethesda Softworks",
+      "blockClass":  "pantera"
+    }
+    },
+// textos dos cards linha dois
+
+
+    "rich-text#hitman2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Hitman 3   \nWindows",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#age2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Age of Empires IV - Windows",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#strays2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Stray \nPS4/PS5",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#deathloop2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Deathloop \nWindows",
+        "blockClass":  "panteraA"
+      }
+    },
+    // preços
+    "rich-text#precodeathloop2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "R$467,67",
+        "blockClass":  "panteraA"
+      }
+    },
+
+    "rich-text#hitma2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "R$329,90",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#ageof2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "R$599,90",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#straycat2": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "R$125,49",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#3veses-sem-juros2": {
+      "props": {
+
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": " em até 3 veses  de R$48,90 sem juros",
+        "blockClass":  "panteraB"
+      }
+    }
+
+}
