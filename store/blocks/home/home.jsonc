@@ -15,7 +15,7 @@
       "flex-layout.row#em-alta",
       "rich-text#aproveite-nossas-promocoes",
       "slider-layout#carrocel-de-herois",
-      "newsletter",
+      // "newsletter",
       "flex-layout.row#roxa"
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */

@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#newsletter": {
+    "children": [
+        "rich-text#newsletter",
+        "newsletter-form"
+      ]
+    },
+    "rich-text#newsletter": {
+      "props": {
+        "text": "*Se inscreva na newsletter* \n ### Receba no seu e-mail nossas novidades e cupons de desconto. ###",
+        "blockClass": "newsletterTitle",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "textColor": "c-on-base--inverted",
+        "font": "t-heading-4"
+      }
+    },
+    "newsletter-form": {
+      "props": {
+        "SuccessState": "rich-text#confirmation"
+      },
+      "children": [
+        "newsletter-input-name",
+        "newsletter-input-email",
+        "newsletter-input-name#game",
+        "newsletter-submit"
+      ]
+    },
+    "rich-text#confirmation": {
+      "props": {
+        "text": "Inscrição realizada com sucesso.",
+        "blockClass": "subscriptionConfirmation",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "textColor": "c-on-action-secondary",
+        "font": "t-heading-6"
+      }
+    },
+    "newsletter-input-name": {
+      "props": {
+        "placeholderText": "Digite seu nome"
+      }
+    },
+    "newsletter-input-email": {
+      "props": {
+        "placeholderText": "Digite seu email"
+      }
+    },
+    "newsletter-input-name#game": {
+      "props": {
+        "placeholderText": "Qual é seu videogame?"
+      }
+    },
+    "newsletter-submit": {
+      "props": {
+        "submitButtonLabel": "Cadastrar"
+      }
+    }
+}

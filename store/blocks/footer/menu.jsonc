@@ -34,19 +34,19 @@
 
   "rich-text#questionInstitucional": {
     "props": {
-      "text": "**Institucional**",
+      "text": "*Institucional*",
       "blockClass": "agoravai"
     }
   },
   "rich-text#questionAjuda": {
     "props": {
-      "text": "**Ajuda**",
+      "text": "*Ajuda*",
       "blockClass": "agoravai"
     }
   },
   "rich-text#questionAtendimento": {
     "props": {
-      "text": "**Atendimento**",
+      "text": "*Atendimento*",
       "blockClass": "agoravai"
     }
   },
@@ -185,6 +185,17 @@
       "rich-text#question-whatsapp",
       "rich-text#question-email-contato",
       "flex-layout.row#insta-face"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-4-desktop": {
+    "props": {
+
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer-siga",
+      "flex-layout.row#footer-banners"
     ]
   },
 //redes sociais

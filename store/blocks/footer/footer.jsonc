@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop"
 
@@ -17,7 +18,8 @@
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
-      "flex-layout.row#footer-4-desktop"
+      "vtex.menu@2.x:menu#footer-4-desktop"
+      // "flex-layout.row#footer-4-desktop"
       // "vtex.menu@2.x:menu#footer-bags",
       // "footer-spacer"
       // "social-networks"
@@ -52,8 +54,7 @@
   // },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": [
-                  "flex-layout.col#linhaone",
+    "children": [ "flex-layout.col#linhaone",
                  "flex-layout.col#linhatwo",
                  "flex-layout.col#linhatree"],
     "props": {
@@ -103,15 +104,14 @@
 
 
 
-// footer instagram
+// images do footer
 
   "flex-layout.row#footer-4-desktop": {
     "children": [ "flex-layout.row#footer-banners"]
   },
   "flex-layout.row#footer-banners": {
 
-    "children": ["rich-text#footer-siga",
-                 "flex-layout.col#banner-one",
+    "children": ["flex-layout.col#banner-one",
                  "flex-layout.col#banner-two",
                  "flex-layout.col#banner-thee"],
     "props": {
@@ -167,6 +167,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "flex-layout.row#newsletter",
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
@@ -210,8 +211,8 @@
 
   "rich-text#footer-siga": {
     "props": {
-      "text": "@SIGA NOS NO INSTAGRAM ![int](assets/instagram.png)",
-      "blockClass": "footer"
+      "text": "*Siga @wedigi* ![int](assets/instagram.png)",
+      "blockClass": "footer-siga"
     }
   }
 }
