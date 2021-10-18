@@ -37,7 +37,8 @@
       "image#cardPantera",
       "rich-text#textoPantera",
       "rich-text#residente",
-      "rich-text#resident"
+      "rich-text#resident",
+      "rich-text#3veses-sem-juros"
     ],
 
     "props": {
@@ -65,7 +66,8 @@
       "image#hitman3",
       "rich-text#hitman3",
       "rich-text#hitman",
-      "rich-text#hitma"
+      "rich-text#hitma",
+      "rich-text#3veses-sem-juros"
     ],
 
     "props": {
@@ -91,7 +93,8 @@
       "image#ageEmpires",
       "rich-text#ageEmpires",
       "rich-text#age",
-      "rich-text#ageof"
+      "rich-text#ageof",
+      "rich-text#3veses-sem-juros"
     ],
 
     "props": {
@@ -116,7 +119,9 @@
     "children": [
       "image#stray",
       "rich-text#stray",
-      "rich-text#strays"
+      "rich-text#strays",
+      "rich-text#straycat",
+      "rich-text#3veses-sem-juros"
     ],
 
     "props": {
@@ -142,7 +147,8 @@
       "image#deathLoop",
       "rich-text#deathLoop",
       "rich-text#deathloop",
-      "rich-text#precodeathloop"
+      "rich-text#precodeathloop",
+      "rich-text#3veses-sem-juros"
     ]
   },
   "image#deathLoop": {
@@ -231,6 +237,23 @@
         "textPosition": "CENTER",
         "text": "R$599,90",
         "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#straycat": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "R$125,49",
+        "blockClass":  "panteraA"
+      }
+    },
+    "rich-text#3veses-sem-juros": {
+      "props": {
+
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": " em até 3 veses  de R$48,90 sem juros",
+        "blockClass":  "panteraB"
       }
     }
   }
