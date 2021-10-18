@@ -5,52 +5,17 @@
     },
     "children": [
       "rich-text#questionInstitucional",
-      "menu-item#perguntas-frequentes",
-      "menu-item#termo-de-uso",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#fale-conosco",
+      "menu-item#Cupons",
+      "menu-item#frete-gratis",
+      "menu-item#lojas-oficiais",
+      "menu-item#Sobre-nos",
+      "menu-item#Tabela-de-medidas",
+      "menu-item#Troca-e-devolucao"
     ]
   },
 
-
-
-
-
-
-  "vtex.menu@2.x:menu#websiteslombra": {
-    "children": [
-      "menu-item#shopss"
-
-    ]
-  },
-  "menu-item#shopss": {
-    "props": {
-      "id": "menu-item-shopss",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shopss",
-        "text": "Shopss"
-      },
-      "iconProps": {
-        "id": "mpa-bag",
-        "size": 20,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-
-
-
-
-
-  "menu-item#perguntas-frequentes": {
+  "menu-item#fale-conosco": {
     "props": {
       "blockClass": "agoravai",
       "id": "menu-item-news",
@@ -61,8 +26,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Perguntas frequentes",
-        "text": "PERGUNTAS FREQUENTES"
+        "tagTitle": "Fale Conosco",
+        "text": "FALE CONOSCO"
       }
     }
   },
@@ -88,18 +53,25 @@
 
   "rich-text#question-telefone": {
     "props": {
-      "text": "![delivery](assets/telefone-footer.png) TELEFONE (11)",
+      "text": "![delivery](assets/telefone-footer.png) TELEFONE (11) 99999-0000",
       "blockClass": "agorafoi"
     }
   },
   "rich-text#question-whatsapp": {
     "props": {
-      "text": "![zap](assets/zap-footer.png) WHATSAPP (11)",
+      "text": "![zap](assets/zap-footer.png) WHATSAPP (11) 99999-0000",
       "blockClass": "agorafoi"
     }
   },
 
-  "menu-item#termo-de-uso": {
+  "rich-text#question-email-contato": {
+    "props": {
+      "text": "![zap](assets/email-footer.png) EMAIL: CONTATO@WEDIGI.COM",
+      "blockClass": "agorafoi"
+    }
+  },
+
+  "menu-item#Cupons": {
     "props": {
       "blockClass": "agoravai",
       "id": "menu-item-black-friday",
@@ -110,15 +82,15 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Termo de uso",
-        "text": "TERMO DE USO"
+        "tagTitle": "Cupons",
+        "text": "CUPONS"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#frete-gratis": {
     "props": {
       "blockClass": "agoravai",
-      "id": "menu-item-sale",
+      "id": "menu-item-frete-gratis",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -126,16 +98,16 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "frete gratis",
+        "text": "FRETE GRÁTIS"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#lojas-oficiais": {
 
     "props": {
       "blockClass": "agoravai",
-      "id": "menu-item-personalization",
+      "id": "menu-item-lojas-oficiais",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -143,11 +115,64 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "lojas oficiais",
+        "text": "LOJAS OFICIAIS"
       }
     }
   },
+  "menu-item#Sobre-nos": {
+
+    "props": {
+      "blockClass": "agoravai",
+      "id": "menu-item-lojas-oficiais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre nós",
+        "text": "SOBRE NÓS"
+      }
+    }
+  },
+  "menu-item#Tabela-de-medidas": {
+
+    "props": {
+      "blockClass": "agoravai",
+      "id": "menu-item-tabela-de-medidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tabela de medidas",
+        "text": "TABELA DE MEDIDAS"
+      }
+    }
+  },
+
+  "menu-item#Troca-e-devolucao": {
+
+    "props": {
+      "blockClass": "agoravai",
+      "id": "menu-item-troca-e-devolucao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Troca e devolução",
+        "text": "TROCA E DEVOLUÇÃO"
+      }
+    }
+  },
+
 
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
@@ -158,9 +183,36 @@
       "rich-text#questionAtendimento",
       "rich-text#question-telefone",
       "rich-text#question-whatsapp",
-      "menu-item#tvs"
+      "rich-text#question-email-contato",
+      "flex-layout.row#insta-face"
     ]
   },
+//redes sociais
+  "flex-layout.row#insta-face": {
+    "children": ["image#em-face" ],
+    "props": {
+      "blockClass":"alignleft",
+      "horizontalAlign":"left"
+    }
+  },
+
+
+
+  "image#em-face": {
+    "props": {
+      "src": "assets/redes.png"
+    }
+  },
+  // "image#em-insta": {
+  //   "props": {
+
+  //     "src": "assets/instagram.png"
+  //   }
+  // },
+
+
+
+
 
   "menu-item#smartphones": {
     "props": {
@@ -213,68 +265,6 @@
     }
   },
 
-  // "vtex.menu@2.x:menu#footer-bags": {
-  //   "props": {
-  //     "orientation": "vertical"
-  //   },
-  //   "children": [
-  //     "menu-item#bags",
-  //     "menu-item#backpacks",
-  //     "menu-item#necessaire"
-  //   ]
-  // },
-
-  // "menu-item#bags": {
-  //   "props": {
-  //     "blockClass": "agoravai",
-  //     "id": "menu-item-bags",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/bags/d",
-  //       "noFollow": true,
-  //       "tagTitle": "Bags",
-  //       "text": "Bags"
-  //     }
-  //   }
-  // },
-
-  // "menu-item#backpacks": {
-  //   "props": {
-  //     "blockClass": "agoravai",
-  //     "id": "menu-item-backpacks",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/bags/backpacks",
-  //       "noFollow": true,
-  //       "tagTitle": "Backpacks",
-  //       "text": "Backpacks"
-  //     }
-  //   }
-  // },
-
-  // "menu-item#necessaire": {
-  //   "props": {
-  //     "blockClass": "agoravai",
-  //     "id": "menu-item-necessaire",
-  //     "type": "custom",
-  //     "iconId": null,
-  //     "highlight": false,
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "/bags/necessaire",
-  //       "noFollow": true,
-  //       "tagTitle": "Necessaire",
-  //       "text": "Necessaire"
-  //     }
-  //   }
-  // },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
 
@@ -282,12 +272,12 @@
     },
     "children": [
       "rich-text#questionAjuda",
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#perguntas-frequentes",
+      "menu-item#termos-de-uso",
+      "menu-item#politica-de-privacidade",
+      "menu-item#como-comprar"
+      // "menu-item#sweatshirt",
+      // "menu-item#cropped"
     ]
   },
 
@@ -328,9 +318,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
+      "menu-item#termos-de-uso",
+      "menu-item#politica-de-privacidade",
+      "menu-item#como-comprar",
       "menu-item#sweatshirt",
       "menu-item#cropped"
     ]
@@ -385,10 +375,10 @@
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#perguntas-frequentes": {
     "props": {
       "blockClass": "agoravai",
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-perguntas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -396,16 +386,16 @@
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Perguntas frequentes",
+        "text": "PERGUNTAS FREQUENTES"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#termos-de-uso": {
     "props": {
       "blockClass": "agoravai",
-      "id": "menu-item-shorts",
+      "id": "menu-item-termos-de-uso",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -413,14 +403,14 @@
         "type": "internal",
         "href": "/clothing/shorts",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Termos de uso",
+        "text": "TERMOS DE USO"
       }
 
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#politica-de-privacidade": {
     "props": {
       "blockClass": "agoravai",
       "id": "menu-item-tank-tops",
@@ -431,16 +421,16 @@
         "type": "internal",
         "href": "/clothing/tank-tops",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Politica de privacidade",
+        "text": "POLÍTICA DE PRIVACIDADE"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#como-comprar": {
     "props": {
       "blockClass": "agoravai",
-      "id": "menu-item-shirts",
+      "id": "menu-item-como-comprar",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -448,8 +438,8 @@
         "type": "internal",
         "href": "/clothing/shirts",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Como comprar",
+        "text": "COMO COMPRAR"
       }
     }
   },

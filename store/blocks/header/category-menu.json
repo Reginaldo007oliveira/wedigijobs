@@ -4,23 +4,25 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-acao",
+      "menu-item#category-aventura",
+      "menu-item#rpg",
+      "menu-item#estrategia",
+      "menu-item#simulacao"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-acao": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-acao",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/acao/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Ação",
+        "text": "Ação"
       }
     },
     "blocks": [
@@ -36,7 +38,7 @@
     ]
   },
 
-  "menu-item#category-home": {
+  "menu-item#category-aventura": {
     "props": {
       "id": "menu-item-category-home",
       "type": "custom",
@@ -46,14 +48,14 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Aventura",
+        "text": "Aventura"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#rpg": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-custom-rpg",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -61,8 +63,44 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Rpg",
+        "text": "RPG"
+      }
+    },
+    "blocks": [
+
+    ]
+  },
+  "menu-item#estrategia": {
+    "props": {
+      "id": "menu-item-custom-estrategia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Estrategia",
+        "text": "Estratégia"
+      }
+    },
+    "blocks": [
+
+    ]
+  },
+  "menu-item#simulacao": {
+    "props": {
+      "id": "menu-item-custom-estrategia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Simulação",
+        "text": "Simulação"
       }
     },
     "blocks": [
@@ -71,21 +109,7 @@
   },
 
 
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
-      }
-    }
-  },
+
   "menu-item#faq": {
     "props": {
       "id": "menu-item-faq",

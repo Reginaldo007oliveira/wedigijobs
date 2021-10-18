@@ -5,15 +5,14 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
 
 
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#websiteslombra",
+
 
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
@@ -24,9 +23,8 @@
       // "social-networks"
     ],
     "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": "menu-rower"
+
     }
   },
 
@@ -54,29 +52,55 @@
   // },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": ["flex-layout.col#linhaone",
+                 "flex-layout.col#linhatwo",
+                 "flex-layout.col#linhatree"],
     "props": {
-      "blockClass":  "menu-row"
+      "blockClass":  "menu-rower"
     }
   },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
-    }
+  // "accepted-payment-methods": {
+  //   "props": {
+  //     "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+  //   }
+  // },
+
+  "flex-layout.col#linhaone": {
+    "children": ["rich-text#footer-lineone"]
+
+  },
+  "flex-layout.col#linhatwo": {
+    "children": [ "rich-text#footer-linetwo"]
+
+  },
+  "flex-layout.col#linhatree": {
+    "children": [ "rich-text#footer-linetree"]
+
   },
 
-  "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+  "rich-text#footer-lineone": {
     "props": {
-      "blockClass":  "menu-row"
-    }
-  },
-  "rich-text#footer": {
-    "props": {
-      "text": "by Reginaldo Oliveira",
+      "text": "DOG TRIP BRASIL - CNPJ 33.912.013/0001-96 \nTodos os direitos reservados",
       "blockClass": "footer"
     }
   },
+  "rich-text#footer-linetwo": {
+    "props": {
+      "text": "![bandeira](assets/bandeiras.png)",
+      "blockClass": "footer"
+    }
+  },
+
+  "rich-text#footer-linetree": {
+    "props": {
+      "textPosition": "RIGHT",
+      "text": "![logovtex](assets/logoVtex.png)",
+      "blockClass": "footer"
+    }
+  },
+
+
+
 
 // images do footer
 

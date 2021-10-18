@@ -12,8 +12,11 @@
       "rich-text#emk-alta",
       "__fold__.experimentalLazyAssets",
       "slider-layout#carrocel-de-herois",
+      "flex-layout.row#em-alta",
+      "rich-text#aproveite-nossas-promocoes",
+      "slider-layout#carrocel-de-herois",
       "newsletter",
-      "flex-layout.row#laranja"
+      "flex-layout.row#roxa"
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
 
@@ -27,8 +30,8 @@
 
     ]
   },
-  //linha laranja
-  "flex-layout.row#laranja": {
+  //linha roxa
+  "flex-layout.row#roxa": {
     "props": {
       "blockClass": "footer-row"
     },
@@ -57,8 +60,12 @@
           "mobileImage":  "assets/bannerhome.png"
         },
         {
-          "image": "assets/bannerhome.png",
-          "mobileImage":  "assets/bannerhome.png"
+          "image": "assets/bannerDoisHome.png",
+          "mobileImage":  "assets/bannerDoisHome.png"
+        },
+        {
+          "image": "assets/bannerproduto.png",
+          "mobileImage":  "assets/bannerproduto.png"
         }
       ]
     }

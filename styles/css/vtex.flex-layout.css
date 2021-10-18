@@ -20,6 +20,15 @@
   background-color: #1db8fb;
   color: #fff;
 }
+/* cor do rodape */
+.flexRowContent--menu-rower {
+  padding-top: 30px;
+  background-color: #000114;
+
+}
+
+
+
 
 .flexRowContent--main-header {
   background-color: #06092b;
@@ -109,11 +118,17 @@
   background-color: #06092b;
 }
 
+/* cor do rodape */
+.flexRow--menu-rower{
+  background-color: #000114;
+}
+
 .flexRow--footer-row {
 
   border-top: 0.5px solid #7627f500;
 
-  padding: 1px 0 5px;
+  padding: 0.1px 0 0.3px;
   background-image: linear-gradient(to right, transparent, rgb(81, 20, 179), transparent);
 }
+
 

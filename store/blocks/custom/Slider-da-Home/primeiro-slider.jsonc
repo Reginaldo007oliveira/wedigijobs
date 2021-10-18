@@ -53,8 +53,8 @@
   },
   "rich-text#textoPantera": {
     "props": {
-      "text": "Free shipping",
-      "blockClass": "deals"
+      "text": "Capcon",
+      "blockClass": "pantera"
     }
   },
 
@@ -79,7 +79,7 @@
   "rich-text#hitman3": {
     "props": {
       "text": "One day delivery",
-      "blockClass": "deals"
+      "blockClass":  "pantera"
     }
   },
   "flex-layout.col#ageEmpires": {
@@ -103,7 +103,7 @@
   "rich-text#ageEmpires": {
     "props": {
       "text": "Pick up in store",
-      "blockClass": "deals"
+      "blockClass":  "pantera"
     }
   },
   "flex-layout.col#stray": {
@@ -127,7 +127,7 @@
   "rich-text#stray": {
     "props": {
       "text": "Exclusive deals",
-      "blockClass": "deals"
+      "blockClass":  "pantera"
     }
   },
   "flex-layout.col#deathLoop": {
@@ -146,7 +146,7 @@
   "rich-text#deathLoop": {
     "props": {
       "text": "Exclusive deals",
-      "blockClass": "deals"
+      "blockClass":  "pantera"
     }
   }
 }

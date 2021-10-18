@@ -53,7 +53,7 @@
   },
   "rich-text#textoPlaystation": {
     "props": {
-      "text": "Free shipping",
+      "text": "",
       "blockClass": "deals"
     }
   },
@@ -78,7 +78,7 @@
   },
   "rich-text#pc-windows": {
     "props": {
-      "text": "One day delivery",
+      "text": "",
       "blockClass": "deals"
     }
   },
@@ -102,7 +102,7 @@
   },
   "rich-text#nintendo": {
     "props": {
-      "text": "Pick up in store",
+      "text": "",
       "blockClass": "deals"
     }
   },
@@ -126,7 +126,7 @@
   },
   "rich-text#xbox": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "",
       "blockClass": "deals"
     }
   },
@@ -150,6 +150,61 @@
       "blockClass": ["title-slogan", "titles"],
       "text":" **|** Em alta"
     }
+  },
+  "rich-text#aproveite-nossas-promocoes": {
+    "props": {
+      "blockClass": ["title-slogan", "titles"],
+      "text":" **|** Aproveite nossas promoções"
+    }
+  },
+
+//sessão em alta
+  "flex-layout.row#em-alta": {
+    "children": ["flex-layout.col#em-alta-colOne",
+                 "flex-layout.col#em-alta-coltwo"],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#em-alta-colOne": {
+    "children": [
+      "image#nostalgia"
+
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "flex-layout.col#em-alta-coltwo": {
+    "children": [
+      "image#olimpiadas"
+
+    ],
+
+    "props": {
+     "marginRight":4
+
+    }
+  },
+  "image#nostalgia": {
+    "props": {
+      "src": "assets/marioNostalgia.png",
+      "maxHeight": "100%"
+
+    }
+  },
+  "image#olimpiadas": {
+    "props": {
+      "src": "assets/noRitimo.png",
+      "maxHeight": "100%"
+
+    }
   }
+
 }
 

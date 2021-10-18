@@ -31,7 +31,7 @@
 
 .newsletter .container {
   padding: 60px 10px;
-  background-color: #03051A;
+  background-color: #000114;
 
 
 }
@@ -160,6 +160,10 @@
 /* footer colors cards */
 .container{
   background-color: #06092b;
+  width: 100%;
+}
+.container--menu-rowers{
+  background-color: #5be00df6;
   width: 100%;
 }
 .searchBarContainer :global(.vtex-input-prefix__group) {
