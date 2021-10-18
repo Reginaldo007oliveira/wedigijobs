@@ -39,12 +39,7 @@
       "rich-text#residente",
       "rich-text#resident",
       "rich-text#3veses-sem-juros"
-    ],
-
-    "props": {
-     "marginRight":4
-
-    }
+    ]
 
   },
   "image#cardPantera": {

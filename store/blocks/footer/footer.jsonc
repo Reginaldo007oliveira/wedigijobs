@@ -52,7 +52,7 @@
   // },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": [ "rich-text#footer-siga",
+    "children": [
                   "flex-layout.col#linhaone",
                  "flex-layout.col#linhatwo",
                  "flex-layout.col#linhatree"],
@@ -103,14 +103,15 @@
 
 
 
-// images do footer
+// footer instagram
 
   "flex-layout.row#footer-4-desktop": {
     "children": [ "flex-layout.row#footer-banners"]
   },
   "flex-layout.row#footer-banners": {
 
-    "children": ["flex-layout.col#banner-one",
+    "children": ["rich-text#footer-siga",
+                 "flex-layout.col#banner-one",
                  "flex-layout.col#banner-two",
                  "flex-layout.col#banner-thee"],
     "props": {
