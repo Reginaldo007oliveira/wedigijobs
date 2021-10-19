@@ -55,7 +55,7 @@
     }
   },
 
-
+//imagem branca da pagina de ação
   "image#acaoImagem": {
     "props": {
       "src": "assets/infoPageHome.png",

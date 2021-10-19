@@ -1,14 +1,12 @@
 # Store theme
-Referencias 
-https://www.markdownguide.org/cheat-sheet
-https://github.com/vtex-apps/store-icons/blob/cbbb1b82bfca247a811d146b1e2cafb642db1928/docs/ICONPACK.md
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Our boilerplate theme to create stores in the VTEX IO platform.
 
 ## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+![store-theme-default](https://wedigi.vteximg.com.br/arquivos/storemasters.png)
 
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
@@ -23,6 +21,11 @@ Store GraphQL is a middleware to access all VTEX APIs.
 - [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
 
 ### Store Component Apps
+Referencias 
+
+https://www.markdownguide.org/cheat-sheet
+https://github.com/vtex-apps/store-icons/blob/cbbb1b82bfca247a811d146b1e2cafb642db1928/docs/ICONPACK.md
+
 - [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
 - [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
 - [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
@@ -48,21 +51,3 @@ Store GraphQL is a middleware to access all VTEX APIs.
 
 Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
 
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
