@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Store Style
 # Entregues
 Página da home
 Página de categorias em ação
 Lead
+=======
+
+# Store Style
+# Entregues
+Página da home
+Página de categorias em ação e formulário de captação de lead
+>>>>>>> 8d922c83b455b892e582c723a5300cec504fd01b
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -54,4 +62,3 @@ https://github.com/vtex-apps/store-icons/blob/cbbb1b82bfca247a811d146b1e2cafb642
 ## Contributing
 
 Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
-
