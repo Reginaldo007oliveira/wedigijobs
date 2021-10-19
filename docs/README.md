@@ -5,7 +5,7 @@ Página da home
 Página de categorias em ação
 Lead
 =======
-
+Workspace agoravai
 # Store Style
 # Entregues
 Página da home
@@ -17,8 +17,6 @@ Página de categorias em ação e formulário de captação de lead
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Our boilerplate theme to create stores in the VTEX IO platform.
 
-## Preview
-![store-theme-default](https://wedigi.vteximg.com.br/arquivos/storemasters.png)
 
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
