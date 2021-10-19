@@ -54,4 +54,3 @@ https://github.com/vtex-apps/store-icons/blob/cbbb1b82bfca247a811d146b1e2cafb642
 ## Contributing
 
 Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
-
