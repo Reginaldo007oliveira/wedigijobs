@@ -2,8 +2,7 @@
 # Store Style
 # Entregues
 Página da home
-Página de categorias em ação
-Lead
+Página de categorias em ação e formulário de captação de lead
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
