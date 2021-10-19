@@ -39,7 +39,7 @@
 
 
   "flex-layout.col#acaoOneTexto": {
-    "children": ["rich-text#acaotitulo","rich-text#acaotexto"],
+    "children": ["rich-text#acaotexto"],
 
     "props": {
      "marginRight":4
@@ -59,20 +59,14 @@
   "image#acaoImagem": {
     "props": {
       "src": "assets/infoPageHome.png",
-      "maxHeight": "800px"
+      "maxHeight": "500px"
 
     }
   },
-  "rich-text#acaotitulo": {
-    "props": {
-      "text": "Como escolher o videogame ideal para você? \nDescubra dicas infalíveis!",
-      "font": "t-heading-5",
-      "blockClass":  "acao"
-    }
-  },
+
   "rich-text#acaotexto": {
     "props": {
-      "text": "Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, \nvel vulputate sapien parturient pulvinar sagittis. Nibh vitae\n ut pretium, mauris. Potenti venenatis habitant nulla quam \nante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. \nPurus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus",
+      "text": "## Como escolher o videogame ideal para você? ## \n\nDescubra dicas infalíveis! Nibh diam dictumst vulputate rhoncus. Nisl, condimentum a, \nvel vulputate sapien parturient pulvinar sagittis. Nibh vitae\n ut pretium, mauris. Potenti venenatis habitant nulla quam \nante maecenas sagittis. Erat fermentum sagittis enim sed tortor nam. \nPurus sed est fermentum ipsum egestas proin. Egestas risus egestas sed a purus",
       "blockClass":  "justfytext"
     }
   },

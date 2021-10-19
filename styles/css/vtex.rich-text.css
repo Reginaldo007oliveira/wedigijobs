@@ -3,6 +3,12 @@
   text-align: center;
   justify-content: center;
 }
+.container--title-station{
+  background-color: #06092b;
+}
+.container--title-slogan{
+  background-color: #06092b;
+}
 
 .container--shelfTitle {
   background-color: #06092b;
@@ -124,7 +130,7 @@ height: 25px;
   }
 
   .container--title {
-    color: #03034E;
+    color: aqua;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;
@@ -152,6 +158,7 @@ height: 25px;
 }
 .paragraph--titles{
   color: #f6f6fa;
+
   font-size: 23px;
 }
 
@@ -211,9 +218,11 @@ height: 25px;
 .paragraph--justfytext{
   color: #f0eff1;
   font-size: 14px;
+  padding-bottom: 80px;
 
 }
 .paragraph--acao{
-  color: #16c1ec;
+  color: #ffffff;
   font-size: 18px;
+  padding:60px;
 }
